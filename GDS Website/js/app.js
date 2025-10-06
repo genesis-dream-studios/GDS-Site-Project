@@ -44,7 +44,7 @@ function clickIterate() {
       alert('The man who speaks in hands.');
       if (usingKey) pageClickCount = 667;
       window.location.reload();
-      window.location.href = "https://youtu.be/Dnx_4k05p74";
+      window.location.replace("https://youtu.be/Dnx_4k05p74");
     }
   }, 50);
 }
